@@ -1,0 +1,16 @@
+事件类型,事件时间,坐标,鼠标点击类型,鼠标点击按键,鼠标移动类型,键盘点击类型,键盘点击键,组件名,组件类型,组件附加信息
+1,1679294378338
+4,1679294378517,"(864,712)",,,1,,,MainWindow.centralwidget.dockWidget,14,
+4,1679294379164,"(824,804)",,,2,,,MainWindow.statusbar,14,
+4,1679294382898,"(129,638)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679294383970,"(304,326)",,,2,,,MainWindow.centralwidget.lineEdit,3,lineEdit
+3,1679294384127,"(304,326)",1,1,,,,MainWindow.centralwidget.lineEdit,3,lineEdit
+4,1679294384811,"(307,326)",,,1,,,MainWindow.centralwidget.lineEdit,3,lineEdit
+4,1679294385590,"(430,335)",,,2,,,MainWindow.centralwidget.textEdit.qt_scrollarea_viewport,3,textEdit
+3,1679294385749,"(430,335)",1,1,,,,MainWindow.centralwidget.textEdit.qt_scrollarea_viewport,3,textEdit
+4,1679294386228,"(430,336)",,,1,,,MainWindow.centralwidget.textEdit.qt_scrollarea_viewport,3,textEdit
+4,1679294386229,"(430,336)",,,2,,,MainWindow.centralwidget.textEdit.qt_scrollarea_viewport,3,textEdit
+4,1679294396186,"(443,340)",,,1,,,MainWindow.centralwidget.textEdit.qt_scrollarea_viewport,3,textEdit
+4,1679294396498,"(1146,768)",,,2,,,MainWindow.dockWidget_2.dockWidgetContents_2,14,
+4,1679294526217,"(127,669)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+2,1679294528950

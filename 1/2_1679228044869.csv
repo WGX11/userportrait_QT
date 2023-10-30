@@ -1,0 +1,64 @@
+事件类型,事件时间,坐标,鼠标点击类型,鼠标点击按键,鼠标移动类型,键盘点击类型,键盘点击键,组件名,组件类型,组件附加信息
+1,1679228044869
+4,1679228048306,"(112,582)",,,1,,,MainWindow.centralwidget,14,
+4,1679228048777,"(390,105)",,,2,,,MainWindow.menubar,14,
+4,1679228049818,"(1158,109)",,,1,,,MainWindow.menubar,14,
+4,1679228050533,"(1121,118)",,,2,,,MainWindow.menubar,14,
+3,1679228050721,"(1121,118)",1,1,,,,MainWindow.menubar,14,
+4,1679228050884,"(1121,120)",,,1,,,MainWindow.menubar,14,
+4,1679228051431,"(999,732)",,,2,,,MainWindow.centralwidget,14,
+3,1679228051498,"(999,732)",1,1,,,,MainWindow.centralwidget,14,
+4,1679228051626,"(998,732)",,,1,,,MainWindow.centralwidget,14,
+4,1679228051954,"(935,668)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679228052097,"(935,668)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679228052938,"(935,668)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228053345,"(938,668)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228054114,"(1067,653)",,,2,,,"MainWindow.centralwidget.toolBox.<class_name=QScrollArea,1>.qt_scrollarea_viewport.page_2",14,
+3,1679228054257,"(1067,653)",1,1,,,,"MainWindow.centralwidget.toolBox.<class_name=QScrollArea,1>.qt_scrollarea_viewport.page_2",14,
+4,1679228069834,"(1066,653)",,,1,,,"MainWindow.centralwidget.toolBox.<class_name=QScrollArea,1>.qt_scrollarea_viewport.page_2",14,
+4,1679228070090,"(1049,610)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+3,1679228070921,"(1049,610)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+4,1679228082506,"(1049,609)",,,1,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+4,1679228082707,"(1048,602)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+3,1679228082896,"(1048,602)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+3,1679228083689,"(1048,602)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+4,1679228083915,"(1049,603)",,,1,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+4,1679228084650,"(1060,704)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+3,1679228084992,"(1060,704)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679228086081,"(1062,703)",,,1,,,"MainWindow.centralwidget.toolBox.<class_name=QScrollArea,1>.qt_scrollarea_viewport.page_2",14,
+4,1679228086809,"(1229,635)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228086985,"(1229,635)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228088217,"(1229,635)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228088826,"(1229,635)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228089042,"(1231,635)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228089484,"(1299,636)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228089617,"(1299,636)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228090066,"(1298,636)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228090121,"(1294,635)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228090329,"(1294,635)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228090994,"(1293,635)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228091082,"(1290,635)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228093513,"(1290,639)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228093634,"(1290,666)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_stackedwidget.tab_2,14,
+3,1679228093841,"(1290,666)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_stackedwidget.tab_2,14,
+3,1679228094641,"(1290,666)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_stackedwidget.tab_2,14,
+4,1679228094826,"(1288,666)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_stackedwidget.tab_2,14,
+4,1679228094946,"(1250,678)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_stackedwidget.tab_2,14,
+3,1679228095105,"(1250,678)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_stackedwidget.tab_2,14,
+4,1679228096319,"(1250,677)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_stackedwidget.tab_2,14,
+4,1679228096762,"(1230,639)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228096961,"(1230,639)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228098017,"(1230,639)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228098123,"(1229,639)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228098123,"(1229,639)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228101313,"(1230,639)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228101786,"(1276,635)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228102409,"(1276,635)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228102753,"(1274,635)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228103514,"(1209,635)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228104089,"(1209,635)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228104482,"(1210,635)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228105138,"(1279,635)",,,2,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+3,1679228105329,"(1279,635)",1,1,,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+4,1679228105746,"(1280,635)",,,1,,,MainWindow.centralwidget.tabWidget.qt_tabwidget_tabbar,14,
+2,1679228108044

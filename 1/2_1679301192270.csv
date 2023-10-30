@@ -1,0 +1,328 @@
+事件类型,事件时间,坐标,鼠标点击类型,鼠标点击按键,鼠标移动类型,键盘点击类型,键盘点击键,组件名,组件类型,组件附加信息
+1,1679301192270
+4,1679301192396,"(369,848)",,,1,,,MainWindow.statusbar,-1,
+4,1679301193768,"(220,254)",,,2,,,MainWindow.centralwidget.pushButton,1,PushButton
+3,1679301193869,"(220,254)",1,1,,,,MainWindow.centralwidget.pushButton,1,PushButton
+4,1679301193924,"(221,254)",,,1,,,MainWindow.centralwidget.pushButton,1,PushButton
+4,1679301194027,"(315,253)",,,2,,,MainWindow.centralwidget.toolButton,1,toolButton
+3,1679301194147,"(315,253)",1,1,,,,MainWindow.centralwidget.toolButton,1,toolButton
+4,1679301194197,"(316,253)",,,1,,,MainWindow.centralwidget.toolButton,1,toolButton
+4,1679301194307,"(372,258)",,,2,,,MainWindow.centralwidget.toolButton,1,toolButton
+3,1679301194411,"(372,258)",1,1,,,,MainWindow.centralwidget.toolButton,1,toolButton
+4,1679301194443,"(373,258)",,,1,,,MainWindow.centralwidget.toolButton,1,toolButton
+4,1679301194570,"(516,251)",,,2,,,MainWindow.centralwidget.radioButton,1,RadioButton
+3,1679301194674,"(516,251)",1,1,,,,MainWindow.centralwidget.radioButton,1,RadioButton
+4,1679301194763,"(517,251)",,,1,,,MainWindow.centralwidget.radioButton,1,RadioButton
+4,1679301194973,"(582,252)",,,2,,,MainWindow.centralwidget.checkBox,1,CheckBox
+3,1679301195091,"(582,252)",1,1,,,,MainWindow.centralwidget.checkBox,1,CheckBox
+4,1679301195147,"(583,253)",,,1,,,MainWindow.centralwidget.checkBox,1,CheckBox
+4,1679301195273,"(607,296)",,,2,,,MainWindow.centralwidget.checkBox_2,1,CheckBox
+3,1679301195387,"(607,296)",1,1,,,,MainWindow.centralwidget.checkBox_2,1,CheckBox
+4,1679301195427,"(607,297)",,,1,,,MainWindow.centralwidget.checkBox_2,1,CheckBox
+4,1679301195559,"(611,272)",,,2,,,MainWindow.centralwidget,-1,
+3,1679301195658,"(611,272)",1,1,,,,MainWindow.centralwidget,-1,
+4,1679301195716,"(613,272)",,,1,,,MainWindow.centralwidget,-1,
+4,1679301195828,"(634,289)",,,2,,,MainWindow.centralwidget.checkBox_2,1,CheckBox
+3,1679301195922,"(634,289)",1,1,,,,MainWindow.centralwidget.checkBox_2,1,CheckBox
+4,1679301195956,"(635,289)",,,1,,,MainWindow.centralwidget.checkBox_2,1,CheckBox
+4,1679301196139,"(769,286)",,,2,,,MainWindow.centralwidget,-1,
+3,1679301196219,"(769,286)",1,1,,,,MainWindow.centralwidget,-1,
+4,1679301196283,"(770,286)",,,1,,,MainWindow.centralwidget,-1,
+4,1679301196355,"(784,296)",,,2,,,MainWindow.centralwidget,-1,
+3,1679301196475,"(784,296)",1,1,,,,MainWindow.centralwidget,-1,
+4,1679301196611,"(785,296)",,,1,,,MainWindow.centralwidget,-1,
+4,1679301196691,"(798,276)",,,2,,,MainWindow.centralwidget.comboBox,2,1
+3,1679301196794,"(798,276)",1,1,,,,MainWindow.centralwidget.comboBox,2,1
+4,1679301196795,"(798,276)",,,1,,,MainWindow.centralwidget.comboBox,2,1
+4,1679301197027,"(1039,275)",,,2,,,MainWindow.centralwidget.fontComboBox,2,Ubuntu
+3,1679301197147,"(1039,275)",1,1,,,,MainWindow.centralwidget.fontComboBox,2,Ubuntu
+4,1679301197243,"(1032,279)",,,1,,,MainWindow.centralwidget.fontComboBox,2,Ubuntu
+4,1679301197604,"(1005,281)",,,2,,,MainWindow.centralwidget.fontComboBox,2,Ubuntu
+3,1679301197690,"(1005,281)",1,1,,,,MainWindow.centralwidget.fontComboBox,2,Ubuntu
+4,1679301197739,"(1004,281)",,,1,,,MainWindow.centralwidget.fontComboBox,2,Ubuntu
+4,1679301198573,"(199,382)",,,2,,,MainWindow.centralwidget.label,3,TextLabel
+3,1679301198698,"(199,382)",1,1,,,,MainWindow.centralwidget.label,3,TextLabel
+4,1679301198732,"(200,382)",,,1,,,MainWindow.centralwidget.label,3,TextLabel
+4,1679301198918,"(293,381)",,,2,,,MainWindow.centralwidget.lineEdit,3,lineEdit
+3,1679301199019,"(293,381)",1,1,,,,MainWindow.centralwidget.lineEdit,3,lineEdit
+4,1679301199083,"(291,381)",,,1,,,MainWindow.centralwidget.lineEdit,3,lineEdit
+4,1679301199205,"(189,375)",,,2,,,MainWindow.centralwidget.label,3,TextLabel
+3,1679301199315,"(189,375)",1,1,,,,MainWindow.centralwidget.label,3,TextLabel
+4,1679301199355,"(191,375)",,,1,,,MainWindow.centralwidget.label,3,TextLabel
+4,1679301199566,"(270,375)",,,2,,,MainWindow.centralwidget,-1,
+3,1679301199642,"(270,375)",1,1,,,,MainWindow.centralwidget,-1,
+4,1679301199652,"(272,375)",,,1,,,MainWindow.centralwidget,-1,
+4,1679301199795,"(582,387)",,,2,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+3,1679301199938,"(582,387)",1,1,,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301200043,"(586,388)",,,1,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301200179,"(618,395)",,,2,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+3,1679301200402,"(618,395)",1,1,,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301200467,"(618,394)",,,1,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301200549,"(620,371)",,,2,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+3,1679301200666,"(620,371)",1,1,,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301200732,"(618,371)",,,1,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301200875,"(457,386)",,,2,,,MainWindow.centralwidget.textEdit,3,"textEdit
+"
+3,1679301200971,"(457,386)",1,1,,,,MainWindow.centralwidget.textEdit,3,"textEdit
+"
+4,1679301201027,"(458,386)",,,1,,,MainWindow.centralwidget.textEdit,3,"textEdit
+"
+4,1679301201171,"(576,386)",,,2,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+3,1679301201306,"(576,386)",1,1,,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301201356,"(578,386)",,,1,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301201476,"(616,395)",,,2,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+3,1679301201603,"(616,395)",1,1,,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+3,1679301202586,"(616,395)",1,1,,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301202651,"(616,396)",,,1,,,MainWindow.centralwidget.plainTextEdit,3,plaintextedit
+4,1679301203048,"(738,395)",,,2,,,MainWindow.centralwidget,-1,
+3,1679301203202,"(738,395)",1,1,,,,MainWindow.centralwidget,-1,
+4,1679301203251,"(739,395)",,,1,,,MainWindow.centralwidget,-1,
+4,1679301203339,"(778,384)",,,2,,,MainWindow.centralwidget.spinBox,4,第0天
+4,1679301203469,"(778,382)",,,1,,,MainWindow.centralwidget.spinBox,4,第0天
+3,1679301203523,"(778,382)",1,1,,,,MainWindow.centralwidget.spinBox,4,第0天
+4,1679301203707,"(808,378)",,,2,,,MainWindow.centralwidget.spinBox,4,第0天
+3,1679301203899,"(808,378)",1,1,,,,MainWindow.centralwidget.spinBox,4,第1天
+4,1679301204060,"(809,378)",,,1,,,MainWindow.centralwidget.spinBox,4,第1天
+4,1679301204084,"(810,378)",,,2,,,MainWindow.centralwidget.spinBox,4,第1天
+3,1679301204346,"(810,378)",1,1,,,,MainWindow.centralwidget.spinBox,4,第2天
+4,1679301204483,"(811,379)",,,1,,,MainWindow.centralwidget.spinBox,4,第2天
+4,1679301204573,"(811,385)",,,2,,,MainWindow.centralwidget.spinBox,4,第2天
+3,1679301204698,"(811,385)",1,1,,,,MainWindow.centralwidget.spinBox,4,第1天
+4,1679301204925,"(810,384)",,,1,,,MainWindow.centralwidget.spinBox,4,第1天
+4,1679301204980,"(807,374)",,,2,,,MainWindow.centralwidget.spinBox,4,第1天
+3,1679301205098,"(807,374)",1,1,,,,MainWindow.centralwidget.spinBox,4,第2天
+4,1679301205155,"(808,374)",,,1,,,MainWindow.centralwidget.spinBox,4,第2天
+4,1679301205624,"(952,379)",,,2,,,MainWindow.centralwidget.doubleSpinBox,4,第0.00秒
+3,1679301205698,"(952,379)",1,1,,,,MainWindow.centralwidget.doubleSpinBox,4,第1.00秒
+4,1679301205762,"(954,379)",,,1,,,MainWindow.centralwidget.doubleSpinBox,4,第1.00秒
+4,1679301205835,"(954,373)",,,2,,,MainWindow.centralwidget.doubleSpinBox,4,第1.00秒
+3,1679301206010,"(954,373)",1,1,,,,MainWindow.centralwidget.doubleSpinBox,4,第2.00秒
+4,1679301206051,"(955,373)",,,1,,,MainWindow.centralwidget.doubleSpinBox,4,第2.00秒
+4,1679301206251,"(1082,377)",,,2,,,MainWindow.centralwidget.dateTimeEdit,4,2000/1/1 上午12:00
+3,1679301206362,"(1082,377)",1,1,,,,MainWindow.centralwidget.dateTimeEdit,4,2000/1/1 上午12:00
+4,1679301206405,"(1083,377)",,,1,,,MainWindow.centralwidget.dateTimeEdit,4,2000/1/1 上午12:00
+4,1679301206499,"(1136,385)",,,2,,,MainWindow.centralwidget.dateTimeEdit,4,2000/1/1 上午12:00
+3,1679301206642,"(1136,385)",1,1,,,,MainWindow.centralwidget.dateTimeEdit,4,2000/1/1 上午12:00
+4,1679301206731,"(1134,386)",,,1,,,MainWindow.centralwidget.dateTimeEdit,4,2000/1/1 上午12:00
+4,1679301207940,"(178,443)",,,2,,,MainWindow.centralwidget,-1,
+4,1679301207994,"(178,444)",,,1,,,MainWindow.centralwidget,-1,
+3,1679301208140,"(262,444)",1,1,,,,MainWindow.centralwidget,-1,
+4,1679301208491,"(224,446)",,,2,,,MainWindow.centralwidget.dial,5,0
+4,1679301208654,"(226,446)",,,1,,,MainWindow.centralwidget.dial,5,93
+3,1679301208738,"(269,440)",1,1,,,,MainWindow.centralwidget,-1,
+4,1679301208972,"(302,440)",,,2,,,MainWindow.centralwidget.horizontalScrollBar,5,0
+4,1679301209001,"(304,440)",,,1,,,MainWindow.centralwidget.horizontalScrollBar,5,0
+3,1679301209908,"(334,442)",1,1,,,,MainWindow.centralwidget.horizontalScrollBar,5,30
+4,1679301209907,"(334,442)",,,2,,,MainWindow.centralwidget.horizontalScrollBar,5,28
+4,1679301210099,"(335,442)",,,1,,,MainWindow.centralwidget.horizontalScrollBar,5,30
+3,1679301210242,"(358,442)",1,1,,,,MainWindow.centralwidget.horizontalScrollBar,5,52
+4,1679301211077,"(547,391)",,,2,,,MainWindow.centralwidget.verticalScrollBar,5,0
+3,1679301211170,"(547,391)",1,1,,,,MainWindow.centralwidget.verticalScrollBar,5,10
+4,1679301211210,"(548,391)",,,1,,,MainWindow.centralwidget.verticalScrollBar,5,10
+4,1679301211291,"(558,375)",,,2,,,MainWindow.centralwidget,-1,
+3,1679301211362,"(558,375)",1,1,,,,MainWindow.centralwidget,-1,
+4,1679301211450,"(559,377)",,,1,,,MainWindow.centralwidget,-1,
+4,1679301211656,"(634,424)",,,2,,,MainWindow.centralwidget.lcdNumber,7,0
+3,1679301211786,"(634,424)",1,1,,,,MainWindow.centralwidget.lcdNumber,7,0
+4,1679301211828,"(634,426)",,,1,,,MainWindow.centralwidget.lcdNumber,7,0
+4,1679301211856,"(635,427)",,,2,,,MainWindow.centralwidget.lcdNumber,7,0
+3,1679301211997,"(635,427)",2,1,,,,MainWindow.centralwidget.lcdNumber,7,0
+3,1679301212042,"(635,427)",1,1,,,,MainWindow.centralwidget.lcdNumber,7,0
+4,1679301212075,"(636,427)",,,1,,,MainWindow.centralwidget.lcdNumber,7,0
+4,1679301212306,"(732,434)",,,2,,,MainWindow.centralwidget.progressBar,8,24
+3,1679301212410,"(732,434)",1,1,,,,MainWindow.centralwidget.progressBar,8,24
+3,1679301212571,"(732,434)",2,1,,,,MainWindow.centralwidget.progressBar,8,24
+3,1679301212650,"(732,434)",1,1,,,,MainWindow.centralwidget.progressBar,8,24
+4,1679301213411,"(733,434)",,,1,,,MainWindow.centralwidget.progressBar,8,24
+4,1679301214909,"(754,424)",,,2,,,MainWindow.centralwidget.progressBar,8,24
+3,1679301215042,"(754,424)",1,1,,,,MainWindow.centralwidget.progressBar,8,24
+4,1679301215179,"(753,424)",,,1,,,MainWindow.centralwidget.progressBar,8,24
+4,1679301215306,"(662,424)",,,2,,,MainWindow.centralwidget.lcdNumber,7,0
+3,1679301215466,"(662,424)",1,1,,,,MainWindow.centralwidget.lcdNumber,7,0
+4,1679301215562,"(663,424)",,,1,,,MainWindow.centralwidget.lcdNumber,7,0
+4,1679301215739,"(764,427)",,,2,,,MainWindow.centralwidget.progressBar,8,24
+3,1679301215818,"(764,427)",1,1,,,,MainWindow.centralwidget.progressBar,8,24
+4,1679301215882,"(766,427)",,,1,,,MainWindow.centralwidget.progressBar,8,24
+4,1679301216937,"(468,552)",,,2,,,MainWindow.centralwidget.calendarWidget,6,周一 3月 20 2023
+3,1679301217034,"(468,552)",1,1,,,,MainWindow.centralwidget.calendarWidget,6,周一 3月 20 2023
+4,1679301217283,"(467,552)",,,1,,,MainWindow.centralwidget.calendarWidget,6,周二 3月 7 2023
+4,1679301217434,"(429,526)",,,2,,,MainWindow.centralwidget.calendarWidget,6,周二 3月 7 2023
+3,1679301217521,"(429,526)",1,1,,,,MainWindow.centralwidget.calendarWidget,6,周二 3月 7 2023
+4,1679301217578,"(429,525)",,,1,,,MainWindow.centralwidget.calendarWidget,6,周二 3月 7 2023
+4,1679301217779,"(496,518)",,,2,,,MainWindow.centralwidget.calendarWidget,6,周二 3月 7 2023
+3,1679301217865,"(496,518)",1,1,,,,MainWindow.centralwidget.calendarWidget,6,周二 3月 7 2023
+4,1679301217876,"(496,519)",,,1,,,MainWindow.centralwidget.calendarWidget,6,周二 3月 7 2023
+4,1679301218059,"(512,539)",,,2,,,MainWindow.centralwidget.calendarWidget,6,周二 3月 7 2023
+3,1679301218138,"(512,539)",1,1,,,,MainWindow.centralwidget.calendarWidget,6,周二 3月 7 2023
+4,1679301218202,"(513,540)",,,1,,,MainWindow.centralwidget.calendarWidget,6,周二 2月 28 2023
+4,1679301218763,"(937,421)",,,2,,,MainWindow.centralwidget.listWidget,9,属性1
+3,1679301218946,"(937,421)",1,1,,,,MainWindow.centralwidget.listWidget,9,属性1
+4,1679301219082,"(937,422)",,,1,,,MainWindow.centralwidget.listWidget,9,属性1
+4,1679301219195,"(934,436)",,,2,,,MainWindow.centralwidget.listWidget,9,属性2
+3,1679301219289,"(934,436)",1,1,,,,MainWindow.centralwidget.listWidget,9,属性2
+4,1679301219354,"(934,437)",,,1,,,MainWindow.centralwidget.listWidget,9,属性2
+4,1679301219420,"(933,449)",,,2,,,MainWindow.centralwidget.listWidget,9,属性2
+3,1679301219514,"(933,449)",1,1,,,,MainWindow.centralwidget.listWidget,9,属性2
+4,1679301219555,"(933,450)",,,1,,,MainWindow.centralwidget.listWidget,9,属性2
+4,1679301219771,"(1081,457)",,,2,,,MainWindow.centralwidget.treeWidget,10,属性1 
+3,1679301219842,"(1081,457)",1,1,,,,MainWindow.centralwidget.treeWidget,10,属性1 
+4,1679301219875,"(1082,457)",,,1,,,MainWindow.centralwidget.treeWidget,10,属性1 
+4,1679301220022,"(1094,476)",,,2,,,MainWindow.centralwidget.treeWidget,10,属性2
+3,1679301220074,"(1094,476)",1,1,,,,MainWindow.centralwidget.treeWidget,10,属性2
+4,1679301220106,"(1094,477)",,,1,,,MainWindow.centralwidget.treeWidget,10,属性2
+4,1679301220195,"(1094,491)",,,2,,,MainWindow.centralwidget.treeWidget,10,
+3,1679301220265,"(1094,491)",1,1,,,,MainWindow.centralwidget.treeWidget,10,
+4,1679301220362,"(1093,489)",,,1,,,MainWindow.centralwidget.treeWidget,10,
+4,1679301220444,"(1086,463)",,,2,,,MainWindow.centralwidget.treeWidget,10,属性2
+3,1679301220530,"(1086,463)",1,1,,,,MainWindow.centralwidget.treeWidget,10,属性2
+4,1679301220594,"(1084,463)",,,1,,,MainWindow.centralwidget.treeWidget,10,属性2
+4,1679301221001,"(873,553)",,,2,,,MainWindow.centralwidget.tableWidget,11,
+3,1679301221105,"(873,553)",1,1,,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301221178,"(872,553)",,,1,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301221402,"(951,563)",,,2,,,MainWindow.centralwidget.tableWidget,11,
+3,1679301221498,"(951,563)",1,1,,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301221562,"(951,565)",,,1,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301221665,"(920,580)",,,2,,,MainWindow.centralwidget.tableWidget,11,
+3,1679301221753,"(920,580)",1,1,,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301221771,"(919,580)",,,1,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301221899,"(885,569)",,,2,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301221945,"(885,568)",,,1,,,MainWindow.centralwidget.tableWidget,11,
+3,1679301221979,"(885,568)",1,1,,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301222171,"(929,554)",,,2,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301222181,"(930,554)",,,1,,,MainWindow.centralwidget.tableWidget,11,
+3,1679301222216,"(933,554)",1,1,,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301222590,"(1101,547)",,,2,,,MainWindow.centralwidget.columnView,12,list1
+3,1679301222681,"(1101,547)",1,1,,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301222746,"(1100,549)",,,1,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301222820,"(1098,560)",,,2,,,MainWindow.centralwidget.columnView,12,list2
+4,1679301222849,"(1097,560)",,,1,,,MainWindow.centralwidget.columnView,12,list2
+3,1679301222882,"(1097,560)",1,1,,,,MainWindow.centralwidget.columnView,12,list2
+4,1679301223011,"(1097,561)",,,2,,,MainWindow.centralwidget.columnView,12,list2
+3,1679301223020,"(1097,561)",2,1,,,,MainWindow.centralwidget.columnView,12,list2
+4,1679301223040,"(1096,563)",,,1,,,MainWindow.centralwidget.columnView.qt_scrollarea_viewport.<class_name=QListView>.qt_scrollarea_viewport.<class_name=QExpandingLineEdit>,3,list2
+3,1679301223088,"(1096,565)",1,1,,,,MainWindow.centralwidget.columnView.qt_scrollarea_viewport.<class_name=QListView>.qt_scrollarea_viewport.<class_name=QExpandingLineEdit>,3,list2
+4,1679301223226,"(1087,572)",,,2,,,MainWindow.centralwidget.columnView.qt_scrollarea_viewport.<class_name=QListView>.qt_scrollarea_viewport.<class_name=QExpandingLineEdit>,3,list2
+4,1679301223475,"(1088,572)",,,1,,,MainWindow.centralwidget.columnView.qt_scrollarea_viewport.<class_name=QListView>.qt_scrollarea_viewport.<class_name=QExpandingLineEdit>,3,list2
+3,1679301223714,"(1094,575)",1,1,,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301224091,"(1079,562)",,,2,,,MainWindow.centralwidget.columnView.qt_scrollarea_viewport.<class_name=QListView>.qt_scrollarea_viewport.<class_name=QExpandingLineEdit>,3,list2
+3,1679301224201,"(1079,562)",1,1,,,,MainWindow.centralwidget.columnView.qt_scrollarea_viewport.<class_name=QListView>.qt_scrollarea_viewport.<class_name=QExpandingLineEdit>,3,list2
+4,1679301226546,"(1079,561)",,,1,,,MainWindow.centralwidget.columnView.qt_scrollarea_viewport.<class_name=QListView>.qt_scrollarea_viewport.<class_name=QExpandingLineEdit>,3,list2
+4,1679301226698,"(1076,545)",,,2,,,MainWindow.centralwidget.columnView,12,list1
+3,1679301226796,"(1076,545)",1,1,,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301227162,"(1075,545)",,,1,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301227242,"(1073,552)",,,2,,,MainWindow.centralwidget.columnView,12,list1
+3,1679301227474,"(1073,552)",1,1,,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301229682,"(1073,553)",,,1,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301229938,"(1068,574)",,,2,,,MainWindow.centralwidget.columnView,12,list1
+3,1679301230177,"(1068,574)",1,1,,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301230842,"(1070,572)",,,1,,,MainWindow.centralwidget.columnView,12,list2
+4,1679301231250,"(1074,559)",,,2,,,MainWindow.centralwidget.columnView,12,list2
+3,1679301231369,"(1074,559)",1,1,,,,MainWindow.centralwidget.columnView,12,list2
+4,1679301231529,"(1075,559)",,,1,,,MainWindow.centralwidget.columnView,12,list2
+4,1679301231674,"(1162,854)",,,2,,,MainWindow.statusbar,-1,
+4,1679301237090,"(1176,846)",,,1,,,MainWindow.statusbar,-1,
+4,1679301237744,"(1083,582)",,,2,,,MainWindow.centralwidget.columnView,12,list1
+3,1679301237921,"(1083,582)",1,1,,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301238170,"(1082,582)",,,1,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301238196,"(1081,581)",,,2,,,MainWindow.centralwidget.columnView,12,list1
+3,1679301238227,"(1081,581)",2,1,,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301238337,"(1080,581)",,,1,,,MainWindow.centralwidget.columnView,12,list1
+3,1679301238537,"(1054,582)",1,1,,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301238610,"(1054,583)",,,2,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301238778,"(1055,583)",,,1,,,MainWindow.centralwidget.columnView,12,list1
+3,1679301239145,"(1129,583)",1,1,,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301239361,"(1111,581)",,,2,,,MainWindow.centralwidget.columnView,12,list1
+4,1679301239497,"(1109,581)",,,1,,,MainWindow.centralwidget.columnView,12,
+3,1679301239705,"(1067,584)",1,1,,,,MainWindow.centralwidget.columnView,12,
+4,1679301239904,"(1052,624)",,,2,,,MainWindow.centralwidget,-1,
+3,1679301240208,"(1052,624)",1,1,,,,MainWindow.centralwidget,-1,
+4,1679301240281,"(1051,624)",,,1,,,MainWindow.centralwidget,-1,
+4,1679301240756,"(858,576)",,,2,,,MainWindow.centralwidget.tableWidget,11,
+3,1679301240857,"(858,576)",1,1,,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301240938,"(858,575)",,,1,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301241073,"(849,551)",,,2,,,MainWindow.centralwidget.tableWidget,11,
+3,1679301241192,"(849,551)",1,1,,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301241265,"(859,551)",,,1,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301241351,"(942,549)",,,2,,,MainWindow.centralwidget.tableWidget,11,
+3,1679301241440,"(942,549)",1,1,,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301241497,"(935,553)",,,1,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301241577,"(906,576)",,,2,,,MainWindow.centralwidget.tableWidget,11,
+3,1679301241656,"(906,576)",1,1,,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301241785,"(906,577)",,,1,,,MainWindow.centralwidget.tableWidget,11,
+4,1679301242553,"(539,673)",,,2,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+3,1679301242712,"(539,673)",1,1,,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301242809,"(540,673)",,,1,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301242969,"(558,649)",,,2,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+3,1679301243097,"(558,649)",1,1,,,,MainWindow.centralwidget.tabWidget,14,Tab 2
+4,1679301243129,"(555,649)",,,1,,,MainWindow.centralwidget.tabWidget,14,Tab 2
+4,1679301243539,"(231,692)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679301243641,"(231,692)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679301243705,"(230,692)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679301243844,"(219,656)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679301243992,"(219,656)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679301244058,"(218,656)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679301244182,"(196,706)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679301244290,"(196,706)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679301244346,"(196,707)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679301244493,"(192,782)",,,2,,,MainWindow.centralwidget.dockWidget.dockWidgetContents,-1,
+3,1679301244608,"(192,782)",1,1,,,,MainWindow.centralwidget.dockWidget.dockWidgetContents,-1,
+4,1679301244657,"(192,783)",,,1,,,MainWindow.centralwidget.dockWidget.dockWidgetContents,-1,
+4,1679301244786,"(255,800)",,,2,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 1
+3,1679301244880,"(255,800)",1,1,,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 2
+4,1679301244913,"(255,802)",,,1,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 2
+4,1679301245409,"(206,810)",,,2,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 2
+3,1679301245512,"(206,810)",1,1,,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 1
+4,1679301245616,"(207,810)",,,1,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 1
+4,1679301245702,"(251,810)",,,2,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 1
+3,1679301245824,"(251,810)",1,1,,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 2
+4,1679301245880,"(249,810)",,,1,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 2
+4,1679301246217,"(205,786)",,,2,,,MainWindow.centralwidget.dockWidget.dockWidgetContents,-1,
+3,1679301246313,"(205,786)",1,1,,,,MainWindow.centralwidget.dockWidget.dockWidgetContents,-1,
+4,1679301246369,"(205,784)",,,1,,,MainWindow.centralwidget.dockWidget.dockWidgetContents,-1,
+4,1679301246524,"(224,687)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679301246624,"(224,687)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679301246705,"(224,686)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679301247067,"(350,660)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+3,1679301247160,"(350,660)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+4,1679301247242,"(350,662)",,,1,,,MainWindow.centralwidget.toolBox,14,Page 1
+4,1679301247729,"(366,757)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679301248337,"(366,758)",,,1,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679301248769,"(376,792)",,,2,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 2
+3,1679301248976,"(376,792)",1,1,,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 2
+4,1679301249177,"(376,791)",,,1,,,MainWindow.centralwidget.dockWidget.dockWidgetContents.tabWidget_2,14,Tab 2
+4,1679301249369,"(390,765)",,,2,,,MainWindow.centralwidget.dockWidget,-1,
+3,1679301249512,"(390,765)",1,1,,,,MainWindow.centralwidget.dockWidget,-1,
+4,1679301249569,"(390,764)",,,1,,,MainWindow.centralwidget.dockWidget,-1,
+4,1679301249746,"(386,704)",,,2,,,MainWindow.centralwidget.toolBox,14,Page 1
+3,1679301249888,"(386,704)",1,1,,,,MainWindow.centralwidget.toolBox,14,Page 1
+4,1679301250017,"(387,704)",,,1,,,MainWindow.centralwidget.toolBox,14,Page 1
+4,1679301250961,"(565,679)",,,2,,,MainWindow.centralwidget.tabWidget,14,Tab 2
+3,1679301251072,"(565,679)",1,1,,,,MainWindow.centralwidget.tabWidget,14,Tab 2
+4,1679301251144,"(564,679)",,,1,,,MainWindow.centralwidget.tabWidget,14,Tab 2
+4,1679301251266,"(482,653)",,,2,,,MainWindow.centralwidget.tabWidget,14,Tab 2
+3,1679301251408,"(482,653)",1,1,,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301251513,"(483,653)",,,1,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301251598,"(530,649)",,,2,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+3,1679301251720,"(530,649)",1,1,,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301251784,"(530,650)",,,1,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301251898,"(517,685)",,,2,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+3,1679301251976,"(517,685)",1,1,,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301252025,"(517,686)",,,1,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301252119,"(496,704)",,,2,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+3,1679301252216,"(496,704)",1,1,,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301252376,"(497,704)",,,1,,,MainWindow.centralwidget.tabWidget,14,Tab 1
+4,1679301253432,"(195,170)",,,2,,,MainWindow.menubar,-1,
+3,1679301253536,"(195,170)",1,1,,,,MainWindow.menubar,-1,
+4,1679301253664,"(196,170)",,,1,,,MainWindow.menubar,-1,
+4,1679301253785,"(249,164)",,,2,,,MainWindow.menubar,-1,
+3,1679301253936,"(249,164)",1,1,,,,MainWindow.menubar,-1,
+4,1679301254105,"(249,165)",,,1,,,MainWindow.menubar,-1,
+4,1679301254264,"(246,165)",,,2,,,MainWindow.menubar,-1,
+3,1679301254400,"(246,165)",1,1,,,,MainWindow.menubar,-1,
+4,1679301254473,"(246,166)",,,1,,,MainWindow.menubar,-1,
+4,1679301255041,"(253,197)",,,2,,,MainWindow.menubar.menu_2.action_2,13,帮助
+3,1679301255223,"(253,197)",1,1,,,,MainWindow.menubar.menu_2.action_2,13,帮助
+4,1679301255245,"(253,197)",,,1,,,MainWindow.toolBar,-1,
+4,1679301255246,"(253,197)",,,2,,,MainWindow.toolBar,-1,
+4,1679301255889,"(254,197)",,,1,,,MainWindow.toolBar,-1,
+2,1679301256906
