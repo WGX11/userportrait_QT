@@ -1,6 +1,6 @@
 package event_data
 
-const EventDataDirPath = "C:\\MyData\\Project\\user_portrait\\user-portrait-for-qt-master"
+const EventDataDirPath = ".."
 
 // MaxNoOperateTimeS 允许最大不操作时间 五分钟
 const MaxNoOperateTimeS = 60 * 5

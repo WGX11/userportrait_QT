@@ -10,7 +10,7 @@ import (
 
 func processBehaviorPrefer(ctx context.Context) map[int64]string {
 	res := make(map[int64]string)
-	path := "C:\\MyData\\Project\\user_portrait\\user-portrait-for-qt-master\\result.csv"
+	path := "..\\result.csv"
 	data, err := common.OpenFile(path)
 	if err != nil {
 		logger.Error("open file failed. err=", err.Error())
