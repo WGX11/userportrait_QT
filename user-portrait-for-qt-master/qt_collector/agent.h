@@ -1,5 +1,7 @@
 #include <QtCore>
+#include <QSet>
 #include "tool.h"
+#include "collectorcontroller.h"
 
 const int HeaderNum = 11;
 static QStringList FileHeader{"事件类型", "事件时间","坐标",
@@ -23,14 +25,22 @@ class Agent
 {
     Q_OBJECT
 public:
-    explicit Agent();
+    explicit Agent(QObject *parent = nullptr);
     ~Agent();
-
     // Agent is neither copyable nor movable.
     Agent(const Agent &) = delete;
     Agent &operator=(const Agent &) = delete;
 
     static Agent *instance() { return gAgent_; }
+
+    void showCollectorControl();
+
+    static QSet<QString> componentSet;
+    static QFile recordFile;
+    static void initRecordFile();
+    static void closeRecordFile();
+    static void setAddsValue(const QString &value);
+    static bool setContainsValue(const QString &Value);
 
 private slots:
     void onUserEvent(QStringList &);
@@ -46,7 +56,11 @@ private:
     qt_collector::UserEventAnalyzer *eventAnalyzer_ = nullptr;
     QFile dataFile;
     bool openSuccess = false;
+    bool isCollecting = true;
+    CollectorController controller;
 
+private slots:
+    void setCollectionStatus(bool status);
 };
 
 } // namespace qt_event_collector

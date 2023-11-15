@@ -1,4 +1,5 @@
 #include "event_analyzer.h"
+#include "agent.h"
 
 using qt_collector::UserEventAnalyzer;
 using qt_collector::ComponentAnalyzer;
@@ -357,11 +358,27 @@ QStringList UserEventAnalyzer::geneComponent() {
     if (w == nullptr) {
         return QStringList();
     }
-
+    QString dirPath = QStandardPaths::writableLocation(QStandardPaths::DesktopLocation) +"/data_" +qAppName() + "/png/";
     QStringList res;
     for (auto &&fun : componentAnalyzer_) {
         res = fun(w);
         if (res.length() == 3) {
+            QString res2 = res[2];
+            if(res2.size() == 0)
+            {
+                res2 = "unknown";
+            }
+            QString name = res[0] + res2 + ".png";
+            QString path = dirPath + name;
+            bool haveSaved = Agent::setContainsValue(name);
+            if(!haveSaved)
+            {
+                QPixmap pixmap(w->size());
+                QPainter painter(&pixmap);
+                w->render(&painter);
+                pixmap.save(path);
+                Agent::setAddsValue(name);
+            }
             return res;
         }
     }
