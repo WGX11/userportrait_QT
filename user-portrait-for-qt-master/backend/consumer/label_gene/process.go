@@ -11,18 +11,21 @@ const (
 	Age    = 4
 	Career = 5
 	// 使用频率
-	UseTime     = 6
-	UsePeriod   = 7
+	UseTime   = 6
+	UsePeriod = 7
+	UsePerfer = 10
+	MostVisit = 12
+
 	UseActivity = 18 // 不活跃 一般 活跃
 	// 技能
 	GitNorm     = 17 // 不规范 一般规范 规范
 	CodeSpeed   = 13 // 慢 中 快
 	CodeAbility = 19 // 弱 中 强
 	// 使用偏好
-	ProgramLanguage = 12 // C C++
-	ShortcutFre     = 15 // 偶尔 适中 经常
-	GitFre          = 16 // 偶尔 适中 经常
-	BehaviorPrefer  = 20 // 行为偏好
+	ProgramLanguage = 122 // C C++
+	ShortcutFre     = 15  // 偶尔 适中 经常
+	GitFre          = 16  // 偶尔 适中 经常
+	BehaviorPrefer  = 20  // 行为偏好
 )
 
 func process(ctx context.Context, appId int64, labelId int64) map[int64]string {
@@ -34,7 +37,7 @@ func process(ctx context.Context, appId int64, labelId int64) map[int64]string {
 		return processUsePreLabel(ctx, appId, labelId)
 	}
 
-	if labelId == ProgramLanguage || labelId == CodeSpeed || labelId == ShortcutFre || labelId == GitFre {
+	if labelId == ProgramLanguage || labelId == CodeSpeed || labelId == ShortcutFre || labelId == MostVisit || labelId == UsePerfer {
 		return processEventCntLabel(ctx, appId, labelId)
 	}
 

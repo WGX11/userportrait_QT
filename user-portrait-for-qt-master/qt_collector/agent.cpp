@@ -25,6 +25,8 @@ Agent::Agent(QObject *parent)
     {
         return;
     }
+
+
     assert(gAgent_ == nullptr);
     gAgent_ = this;
 
@@ -60,7 +62,6 @@ Agent::Agent(QObject *parent)
             this, SLOT(onUserEvent(QStringList &)));
     // 安装事件过滤器
     QCoreApplication::instance()->installEventFilter(eventAnalyzer_);
-
     onAppStart();
 }
 
@@ -83,7 +84,9 @@ void Agent::setAddsValue(const QString &value)
     }
     else
     {
+        recordFile.open(QIODevice::ReadWrite | QIODevice::Text | QIODevice::Append);
         qDebug() << "record.txt has not been opened";
+
     }
 }
 
@@ -153,6 +156,7 @@ void Agent::onAppStart()
 void Agent::writeData(QStringList &list)
 {
     if (!dataFile.exists() || !openSuccess) {
+        qDebug() << "riteDate openSuccess error";
         return ;
     }
 
@@ -161,11 +165,17 @@ void Agent::writeData(QStringList &list)
 //    }
 
     if (list.isEmpty()) {
+        qDebug() << "WriteDate Empty";
         return ;
     }
 
     qDebug() << "list=" << list;
+    if(!dataFile.isOpen())
+    {
+        qDebug() << "dataFile error";
+        dataFile.open(QFile::WriteOnly | QFile::Append);
 
+    }
     QTextStream output(&dataFile);
     for (int idx = 0; idx < list.length(); idx++) {
         output << ConvertString2CSV(list[idx]);

@@ -98,7 +98,7 @@ func (g *GroupProfile) Load(ctx context.Context) error {
 			g.barModelLabel = lab
 		} else if lab.FixType > 0 {
 			g.pieModelLabels = append(g.pieModelLabels, lab)
-		} else if lab.DataType == label.CanEnum {
+		} else if lab.DataType == label.CanEnum || lab.LabelID == 12 {
 			g.stackBarModelLabels = append(g.stackBarModelLabels, lab)
 		}
 	}
@@ -306,36 +306,48 @@ func (g *GroupProfile) getStackBarLabel() *backend.StackBarLabel {
 	labelId2Desc2Cnt := make(map[int64]map[string]int64)
 	descCnt := 0
 	for _, lab := range g.stackBarModelLabels {
-		if lab == nil || lab.LabelSemanticDesc == nil {
+		if lab == nil {
 			continue
 		}
-
 		data, ok := g.labelId2UserId2Data[lab.LabelID]
 		if !ok {
 			continue
 		}
 
 		descMap := make(map[string]string)
-		err := json.Unmarshal([]byte(*lab.LabelSemanticDesc), &descMap)
-		if err != nil {
-			return nil
-		}
-
 		dataCntMap := make(map[string]int64)
-		for _, d := range data {
-			if cnt, ok := dataCntMap[d]; ok {
-				dataCntMap[d] = cnt + 1
-			} else {
-				dataCntMap[d] = 1
-			}
-		}
-
 		desc2Cnt := make(map[string]int64)
-		for d, cnt := range dataCntMap {
-			desc2Cnt[descMap[d]] = cnt
-			descCnt++
+		if lab.LabelID == 12 {
+			for _, d := range data {
+				if cnt, ok := dataCntMap[d]; ok {
+					dataCntMap[d] = cnt + 1
+				} else {
+					dataCntMap[d] = 1
+				}
+			}
+			labelId2Desc2Cnt[lab.LabelID] = dataCntMap
+		} else {
+			if lab.LabelSemanticDesc == nil {
+				continue
+			}
+
+			err := json.Unmarshal([]byte(*lab.LabelSemanticDesc), &descMap)
+			if err != nil {
+				return nil
+			}
+			for _, d := range data {
+				if cnt, ok := dataCntMap[d]; ok {
+					dataCntMap[d] = cnt + 1
+				} else {
+					dataCntMap[d] = 1
+				}
+			}
+			for d, cnt := range dataCntMap {
+				desc2Cnt[descMap[d]] = cnt
+				descCnt++
+			}
+			labelId2Desc2Cnt[lab.LabelID] = desc2Cnt
 		}
-		labelId2Desc2Cnt[lab.LabelID] = desc2Cnt
 	}
 
 	curIndex := 0

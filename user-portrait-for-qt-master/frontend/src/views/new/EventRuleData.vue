@@ -158,6 +158,7 @@ export default {
     },
     handleViewBehavior(behavior_rule_data) {
       this.behavior_rule_data = behavior_rule_data
+      console.log("behavior_rule_data=", behavior_rule_data)
       this.dialogBehaviorViewVisible = true
     },
     initEcharts(){

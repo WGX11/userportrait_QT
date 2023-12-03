@@ -15,7 +15,8 @@
             <span>{{this.group_labels[0].parent_label_name}}</span>
           </div>
         </template>
-        <div v-for="item in this.group_labels[0].labels" :key="item.label_id" class="text item">{{item.label_name + ": " + item.label_value }}</div>
+        <div v-for="item in this.group_labels[0].labels" :key="item.label_id" class="text item"
+                :title="`${item.label_name}: ${item.label_value}`">{{item.label_name + ": " + item.label_value }}</div>
       </el-card>
     </div>
     <div class="box_large top-right" v-if="this.group_labels.length >= 2">
@@ -25,7 +26,8 @@
             <span>{{this.group_labels[1].parent_label_name}}</span>
           </div>
         </template>
-        <div v-for="item in this.group_labels[1].labels" :key="item.label_id" class="text item">{{item.label_name + ": " + item.label_value }}</div>
+        <div v-for="item in this.group_labels[1].labels" :key="item.label_id" class="text item"
+              :title="`${item.label_name}: ${item.label_value}`">{{item.label_name + ": " + item.label_value }}</div>
       </el-card>
     </div>
     <div class="circle" ref="behavior_duration_chart"></div>
@@ -36,7 +38,8 @@
             <span>{{this.group_labels[2].parent_label_name}}</span>
           </div>
         </template>
-        <div v-for="item in this.group_labels[2].labels" :key="item.label_id" class="text item">{{item.label_name + ": " + item.label_value }}</div>
+        <div v-for="item in this.group_labels[2].labels" :key="item.label_id" class="text item" 
+              :title="`${item.label_name}: ${item.label_value}`">{{item.label_name + ": " + item.label_value }}</div>
       </el-card>
     </div>
     <div class="box bottom-right" v-if="this.group_labels.length >= 4">
@@ -46,7 +49,8 @@
             <span>{{this.group_labels[3].parent_label_name}}</span>
           </div>
         </template>
-        <div v-for="item in this.group_labels[3].labels" :key="item.label_id" class="text item">{{item.label_name + ": " + item.label_value }}</div>
+        <div v-for="item in this.group_labels[3].labels" :key="item.label_id" class="text item"
+                :title="`${item.label_name}: ${item.label_value}`">{{item.label_name + ": " + item.label_value }}</div>
       </el-card>
     </div>
   </div>
@@ -245,6 +249,9 @@ export default {
 
 .text.item {
   padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   border-bottom: 1px solid #ebeef5;
   font-size: 14px;
   color: #606266;

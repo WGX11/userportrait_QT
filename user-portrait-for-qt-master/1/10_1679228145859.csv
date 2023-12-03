@@ -1,0 +1,51 @@
+事件类型,事件时间,坐标,鼠标点击类型,鼠标点击按键,鼠标移动类型,键盘点击类型,键盘点击键,组件名,组件类型,组件附加信息
+1,1679228145859
+4,1679228146497,"(473,800)",,,1,,,MainWindow.statusbar,14,
+4,1679228147603,"(202,654)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679228147697,"(202,654)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228148130,"(201,654)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228148250,"(174,639)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679228148353,"(174,639)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228148586,"(173,637)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228148666,"(170,636)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679228148793,"(170,636)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228148906,"(170,635)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228148971,"(171,630)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679228149097,"(171,630)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228149194,"(171,629)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228149284,"(173,610)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679228149409,"(173,610)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228149954,"(173,609)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228150122,"(160,601)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679228150241,"(160,601)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228150495,"(159,603)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228150650,"(170,644)",,,2,,,MainWindow.centralwidget.groupBox,14,GroupBox
+3,1679228150745,"(170,644)",1,1,,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228150794,"(171,644)",,,1,,,MainWindow.centralwidget.groupBox,14,GroupBox
+4,1679228151338,"(321,633)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+3,1679228151497,"(321,633)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679228151634,"(321,634)",,,1,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679228151850,"(323,655)",,,2,,,"MainWindow.centralwidget.toolBox.<class_name=QScrollArea,1>.qt_scrollarea_viewport.page_2",14,
+3,1679228151994,"(323,655)",1,1,,,,"MainWindow.centralwidget.toolBox.<class_name=QScrollArea,1>.qt_scrollarea_viewport.page_2",14,
+3,1679228152481,"(323,655)",1,1,,,,"MainWindow.centralwidget.toolBox.<class_name=QScrollArea,1>.qt_scrollarea_viewport.page_2",14,
+4,1679228152962,"(324,655)",,,1,,,"MainWindow.centralwidget.toolBox.<class_name=QScrollArea,1>.qt_scrollarea_viewport.page_2",14,
+4,1679228153875,"(347,625)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+3,1679228154097,"(347,625)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679228154209,"(348,625)",,,1,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679228155933,"(354,623)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+3,1679228156273,"(354,623)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679228156682,"(353,623)",,,1,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679228156754,"(349,623)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+3,1679228156873,"(349,623)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679228156898,"(348,623)",,,1,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 2
+4,1679228157193,"(303,602)",,,2,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+3,1679228157305,"(303,602)",1,1,,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+4,1679228157634,"(303,603)",,,1,,,MainWindow.centralwidget.toolBox.qt_toolbox_toolboxbutton,1,Page 1
+4,1679228158091,"(324,646)",,,2,,,MainWindow.centralwidget.toolBox.<class_name=QScrollArea>.qt_scrollarea_viewport.page,14,
+3,1679228158241,"(324,646)",1,1,,,,MainWindow.centralwidget.toolBox.<class_name=QScrollArea>.qt_scrollarea_viewport.page,14,
+3,1679228158834,"(324,646)",1,1,,,,MainWindow.centralwidget.toolBox.<class_name=QScrollArea>.qt_scrollarea_viewport.page,14,
+4,1679228159098,"(324,647)",,,1,,,MainWindow.centralwidget.toolBox.<class_name=QScrollArea>.qt_scrollarea_viewport.page,14,
+4,1679228159579,"(331,755)",,,2,,,MainWindow.centralwidget,14,
+3,1679228159729,"(331,755)",1,1,,,,MainWindow.centralwidget,14,
+4,1679228159955,"(333,754)",,,1,,,MainWindow.centralwidget,14,
+2,1679228161308

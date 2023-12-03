@@ -8,6 +8,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/bytedance/gopkg/util/logger"
+	"math"
 	"strconv"
 	"strings"
 )
@@ -31,13 +32,17 @@ func processEventCntLabel(ctx context.Context, appId int64, labelId int64) map[i
 	plMap := make(map[int64]string)         // 编程语言 u_id -> program language
 	codeSpeedMap := make(map[int64]float64) // 打字速度 u_id -> code speed
 	shortcutCntMap := make(map[int64]int64) // 快捷键次数 u_id -> cnt
-	gitCntMap := make(map[int64]int64)      // git 操作次数 u_id -> cnt
+	visitCntMap := make(map[int64]string)
+	editMap := make(map[int64]string) // 是否偏好编辑
+
+	// git 操作次数 u_id -> cnt
 	for userId, paths := range userEventPath {
 		userIds = append(userIds, userId)
 		cCnt, cppCnt := int64(0), int64(0)
 		keyClickCnt, keyClickDuration := int64(0), int64(0)
 		shortcutCnt := int64(0)
-		gitCnt := int64(0)
+		preferEdit := bool(false)
+		visitCnt := make(map[string]int64)
 		for _, path := range paths {
 			events, err := common.OpenFile(path)
 			if err != nil {
@@ -55,8 +60,12 @@ func processEventCntLabel(ctx context.Context, appId int64, labelId int64) map[i
 				keyClickDuration = keyClickDuration + duration
 			case ShortcutFre:
 				shortcutCnt = shortcutCnt + processShortcutCnt(events)
-			case GitFre:
-				gitCnt = gitCnt + processGitCnt(events)
+			case MostVisit:
+				processVisitCnt(events, visitCnt)
+			case UsePerfer:
+				if processUserPerfer(events) {
+					preferEdit = true
+				}
 			default:
 			}
 		}
@@ -67,12 +76,26 @@ func processEventCntLabel(ctx context.Context, appId int64, labelId int64) map[i
 			} else {
 				plMap[userId] = "2"
 			}
+		case UsePerfer:
+			if preferEdit {
+				editMap[userId] = "1"
+			} else {
+				editMap[userId] = "2"
+			}
 		case CodeSpeed:
 			codeSpeedMap[userId] = float64(keyClickCnt) / float64(keyClickDuration)
 		case ShortcutFre:
 			shortcutCntMap[userId] = shortcutCnt
-		case GitFre:
-			gitCntMap[userId] = gitCnt
+		case MostVisit:
+			mostName := ""
+			maxValue := int64(math.MinInt64)
+			for key, value := range visitCnt {
+				if value > maxValue {
+					maxValue = value
+					mostName = key
+				}
+			}
+			visitCntMap[userId] = mostName
 		default:
 
 		}
@@ -82,6 +105,8 @@ func processEventCntLabel(ctx context.Context, appId int64, labelId int64) map[i
 	switch labelId {
 	case ProgramLanguage:
 		res = plMap
+	case UsePerfer:
+		res = editMap
 	case CodeSpeed:
 		gradeMap := util.GradeByPercent(codeSpeedMap, []float64{0.3, 0.7})
 		for userId, grade := range gradeMap {
@@ -92,11 +117,8 @@ func processEventCntLabel(ctx context.Context, appId int64, labelId int64) map[i
 		for userId, grade := range gradeMap {
 			res[userId] = fmt.Sprintf("%d", grade)
 		}
-	case GitFre:
-		gradeMap := util.GradeByPercent(util.ConvertIntMap2Float(gitCntMap), []float64{0.3, 0.7})
-		for userId, grade := range gradeMap {
-			res[userId] = fmt.Sprintf("%d", grade)
-		}
+	case MostVisit:
+		res = visitCntMap
 	default:
 	}
 
@@ -117,6 +139,27 @@ func processGitCnt(events [][]string) int64 {
 		}
 	}
 	return cnt
+}
+
+func processVisitCnt(events [][]string, visitCnt map[string]int64) {
+	for _, event := range events {
+		if event_data.ComponentNameIndex > len(event)-1 {
+			continue
+		}
+
+		extra := event[event_data.ComponentNameIndex]
+		componentNames := strings.Split(extra, ".")
+		lastPart := ""
+		var lenth = len(componentNames)
+		if lenth > 1 {
+			lastPart += componentNames[lenth-2] + "."
+		}
+		lastPart += componentNames[len(componentNames)-1]
+		if len(lastPart) > 0 {
+			visitCnt[lastPart]++
+		}
+
+	}
 }
 
 func processShortcutCnt(events [][]string) int64 {
@@ -185,4 +228,19 @@ func processProgramLanguage(events [][]string) (cCnt int64, cppCnt int64) {
 	}
 
 	return int64(len(cMap)), int64(len(cppMap))
+}
+
+func processUserPerfer(events [][]string) bool {
+	cnt := int64(0)
+	for _, event := range events {
+		if event_data.KeyClickTypeIndex > len(event)-1 {
+			continue
+		}
+
+		extra := event[event_data.KeyClickTypeIndex]
+		if len(extra) > 0 {
+			cnt++
+		}
+	}
+	return cnt > 20
 }

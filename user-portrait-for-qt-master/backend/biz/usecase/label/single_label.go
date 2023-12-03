@@ -105,7 +105,7 @@ func (s *SingleLabel) Load(ctx context.Context) error {
 				Value: cnt,
 			})
 		}
-	} else if lab.FixType == Career {
+	} else if lab.FixType == Career || lab.LabelID == MostVisitomponent {
 		s.chartType = Pie
 		cntMap := make(map[string]int64)
 		for _, d := range labData {
@@ -176,6 +176,7 @@ func (s *SingleLabel) Load(ctx context.Context) error {
 				}
 			}
 		}
+
 		for i := min; i <= max; i++ {
 			s.barLabel.XNames = append(s.barLabel.XNames, strconv.FormatInt(i, 10))
 			s.barLabel.Data = append(s.barLabel.Data, hourCntMap[i])
